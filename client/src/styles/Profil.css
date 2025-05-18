@@ -1,0 +1,28 @@
+.profil-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fffbe6;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.profil-container h2 {
+  font-size: 24px;
+  color: #f57c00;
+  margin-bottom: 16px;
+}
+
+.profil-info {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.profil-label {
+  font-weight: bold;
+  color: #555;
+}

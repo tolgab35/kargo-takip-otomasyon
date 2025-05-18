@@ -1,0 +1,51 @@
+.panel-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #fff8e1; /* açık sarı */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.panel-container h2 {
+  font-size: 28px;
+  color: #ff9800; /* koyu sarı */
+  margin-bottom: 16px;
+}
+
+.panel-container p {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.panel-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.panel-container li {
+  margin: 18px 0;
+}
+
+.panel-container a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f57c00;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.panel-container a:hover {
+  color: #e65100;
+  text-decoration: underline;
+}
+
+.panel-content {
+  margin-left: 240px;
+  padding: 40px;
+  flex: 1;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}

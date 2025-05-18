@@ -1,0 +1,36 @@
+.gonderi-list-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fffde7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.gonderi-list-container h2 {
+  font-size: 24px;
+  color: #f57c00;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gonderi-card {
+  background: white;
+  padding: 16px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.gonderi-icon {
+  font-size: 24px;
+}
+
+.gonderi-details {
+  font-size: 16px;
+  line-height: 1.6;
+}

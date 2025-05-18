@@ -1,0 +1,52 @@
+.gonderi-form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fffde7;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.gonderi-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #f57c00;
+  text-align: center;
+}
+
+.gonderi-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gonderi-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.gonderi-form button {
+  padding: 12px;
+  background-color: #fbc02d;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.gonderi-form button:hover {
+  background-color: #f9a825;
+}
+
+.gonderi-form select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

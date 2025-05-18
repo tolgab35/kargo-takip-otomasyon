@@ -81,14 +81,6 @@ kargo-firmasi-otomasyon/
 
 ---
 
-## 📷 Örnek Ekranlar (İsteğe Bağlı)
-
-- Giriş Sayfası
-- Müşteri Paneli
-- Admin Paneli
-
----
-
 ## 🧠 Geliştirici Notu
 
 Bu proje, VTYS 25. grup proje ödevi olarak tasarlanmıştır. Projede kullanıcı dostu arayüz, veri doğrulama, JWT tabanlı güvenlik ve esnek veritabanı yapısı hedeflenmiştir.

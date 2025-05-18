@@ -3,7 +3,7 @@ import Sube from "../models/Sube.js";
 
 const router = express.Router();
 
-// ✅ Şube ekleme (isteğe bağlı test için)
+// Şube ekleme (isteğe bağlı test için)
 router.post("/ekle", async (req, res) => {
   try {
     const yeniSube = new Sube(req.body);
@@ -14,7 +14,7 @@ router.post("/ekle", async (req, res) => {
   }
 });
 
-// ✅ Tüm şubeleri getir
+// Tüm şubeleri getir
 router.get("/", async (req, res) => {
   try {
     const subeler = await Sube.find();

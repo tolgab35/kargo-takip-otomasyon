@@ -35,7 +35,7 @@ const AdminPanel = () => {
         }
       );
       fetchData();
-      alert("✅ Durum başarıyla güncellendi");
+      alert("Durum başarıyla güncellendi");
     } catch (err) {
       console.error("Güncelleme hatası:", err);
       alert("Durum güncellenemedi.");

@@ -4,7 +4,7 @@ import { verifyToken } from "../middlewares/verifyToken.js";
 
 const router = express.Router();
 
-// ✅ Tüm gönderileri getir (sadece admin için)
+// Tüm gönderileri getir (sadece admin için)
 router.get("/gonderiler", verifyToken, async (req, res) => {
   if (req.kullanici.rol !== "admin") {
     return res.status(403).json({ message: "Yetkisiz erişim" });
@@ -18,7 +18,7 @@ router.get("/gonderiler", verifyToken, async (req, res) => {
   }
 });
 
-// ✅ Gönderi durumu güncelle
+// Gönderi durumu güncelle
 router.patch("/gonderi/:id", verifyToken, async (req, res) => {
   if (req.kullanici.rol !== "admin") {
     return res.status(403).json({ message: "Yetkisiz erişim" });

@@ -61,6 +61,4 @@ router.get("/profil", verifyToken, async (req, res) => {
   }
 });
 
-console.log("📥 musteriRoute aktif");
-
 export default router;

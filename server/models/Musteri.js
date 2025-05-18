@@ -37,7 +37,7 @@ const musteriSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// 🔍 Eşsiz index tanımı (görünür olması için ayrıca belirtiliyor)
+// Eşsiz index tanımı (görünür olması için ayrıca belirtiliyor)
 musteriSchema.index({ email: 1 }, { unique: true });
 musteriSchema.index({ telefon: 1 }, { unique: true });
 

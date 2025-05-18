@@ -1,6 +1,6 @@
 import Musteri from "../models/Musteri.js";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcryptjs"; // ❗Eksik olan bu satır
+import bcrypt from "bcryptjs";
 
 export const login = async (req, res) => {
   const { email, sifre } = req.body;

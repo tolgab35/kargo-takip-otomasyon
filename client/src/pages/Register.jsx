@@ -20,7 +20,7 @@ const Register = () => {
     e.preventDefault();
     try {
       await axios.post("http://localhost:8000/api/musteri/ekle", form);
-      alert("✅ Kayıt başarılı! Giriş yapabilirsiniz.");
+      alert("Kayıt başarılı! Giriş yapabilirsiniz.");
       window.location.href = "/login";
     } catch (err) {
       console.error(err);
